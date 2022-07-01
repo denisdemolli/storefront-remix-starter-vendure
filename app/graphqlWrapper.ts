@@ -2,7 +2,7 @@ import { DocumentNode, print } from 'graphql';
 import { getSdk } from './generated/graphql';
 import { sessionStorage } from './sessions';
 
-const DEMO_API_URL = 'https://readonlydemo.vendure.io/shop-api';
+const DEMO_API_URL = 'http://134.209.253.25:3000/shop-api';
 const API_URL =
     typeof process !== 'undefined'
         ? process.env.VENDURE_API_URL ?? DEMO_API_URL
